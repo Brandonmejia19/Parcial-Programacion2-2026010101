@@ -1,0 +1,20 @@
+# Compilados
+*.class
+
+# Logs
+*.log
+
+# Paquetes
+*.jar
+*.war
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+out/
+bin/
+target/
