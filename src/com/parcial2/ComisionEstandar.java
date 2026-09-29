@@ -1,5 +1,8 @@
 package com.parcial2;
 
-public class ComisionEstandar {
-    
+public class ComisionEstandar implements EstrategiaComision {
+    @Override
+    public double calcularComision(double montoVenta) {
+        return montoVenta * 0.05;
+    }
 }

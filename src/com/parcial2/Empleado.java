@@ -1,4 +1,4 @@
-package com.parcial2;
+package src.com.parcial2;
 
 public class Empleado {
     
