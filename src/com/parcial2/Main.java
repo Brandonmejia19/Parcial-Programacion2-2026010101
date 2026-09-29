@@ -2,7 +2,9 @@ package com.parcial2;
 
 public class Main {
     public static void main(String[] args) {
-        Vendedor v = new Vendedor("Brandon Mejía", 2800.0);
+        //CAMBIO DE VALOR FINAL MR
+        Vendedor v = new Vendedor("Brandon Mejía", 2530.0);
+        v.cambiarEstrategia(new ComisionPersonalizada());
         v.mostrarDetalle();
     }
 }
